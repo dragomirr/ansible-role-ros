@@ -51,13 +51,13 @@ Example to install ROS desktop-full configuration with rosbridge-server on the h
      become: true
      vars:
        ros_user:
-           name: rarrais
-           group: rarrais
+           name: ubuntu
+           group: ubuntu
        ros_configuration: desktop-full
        ros_packages:
          - rosbridge-server
      roles:
-       - rarrais.ros
+       - dragomirr.ros
    ```
 
 
